@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git branch:'master', credentialsId: 'anmol_git', poll: false, url: 'https://github.com/AnmolChapagain/new-app.git'
+                git branch:'main', credentialsId: 'anmol_git', poll: false, url: 'https://github.com/AnmolChapagain/new-app.git'
             }
         }
         
