@@ -5,11 +5,10 @@
   <groupId>com.example.maven-project</groupId>
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
-  <version>2.0.0SNAPSHOT</version>
+  <version>1.2.18-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
-	
 
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
@@ -59,13 +58,7 @@
 
 			</plugin>
 
-      <plugin>
-        <artifactId>maven-release-plugin</artifactId>
-        <configuration>
-          <autoVersionSubmodules>true</autoVersionSubmodules>
-        </configuration>
-      </plugin>
-
+     
       <plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
@@ -147,10 +140,6 @@
           <version>2.2.1</version>
         </plugin>
 
-        <plugin>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>2.5</version>
-        </plugin>
 
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
@@ -213,10 +202,7 @@
         <artifactId>servlet-api</artifactId>
         <version>2.5</version>
       </dependency>
-<dependency>
-	<groupId>com.apple</groupId>   
-	<artifactId>AppleJavaExtensions</artifactId>    
-	<version>1.4</version> </dependency>
+
       <dependency>
         <groupId>javax.servlet.jsp</groupId>
         <artifactId>jsp-api</artifactId>
@@ -260,11 +246,11 @@
     </dependencies>
   </dependencyManagement>
 
-<scm>
-    <connection>scm:git:https://github.com/AnmolChapagain/new-app.git</connection>
-    <developerConnection>scm:git:https://github.com/AnmolChapagain/new-app.git</developerConnection>
+  <scm>
+    <connection>scm:git:https://github.com/bypillaraghu/eficienstart.git</connection>
+    <developerConnection>scm:git:https://github.com/bypillaraghu/eficienstart.git</developerConnection>
     <tag>HEAD</tag>
-    <url>scm:git:https://github.com/AnmolChapagain/new-app.git</url>
+    <url>scm:git:https://github.com/bypillaraghu/eficienstart.git</url>
   </scm>
 
   <prerequisites>
